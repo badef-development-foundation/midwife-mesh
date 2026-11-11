@@ -16,9 +16,11 @@ Open `index.html` in any modern browser. No dependencies, account, server, inter
 
 **Important:** Routing is visual only. No radio hardware, Meshtastic integration, real message delivery, SMS fallback, encryption, persistent storage, patient record handling, clinical decision support or predictive analytics is implemented. Do not enter real patient data. The counters are not field results.
 
+**Live demo:** https://badef-development-foundation.github.io/midwife-mesh/
+
 ## Source concept
 
-Banadir Development Foundation (BADEF), *Midwife Mesh Concept Note*, 2026. The proposal envisages LoRa/Meshtastic communication between rural midwives and referral facilities in Jubaland, Somalia, with Aspire Graphics Ltd as proposed technical partner.
+Banadir Development Foundation (BADEF), *Midwife Mesh Concept Note*, 2026. The proposal envisages LoRa/Meshtastic communication between rural midwives and referral facilities in Jubaland, Somalia, with Hornlink (Horn Digital Limited) as proposed technical partner.
 
 ## Next engineering steps
 

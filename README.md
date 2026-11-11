@@ -1,9 +1,13 @@
 # Midwife Mesh
 
-**Status: Concept stage — no functional prototype or field testing completed.**
+**Status: Interactive browser-based software proof of concept available; physical LoRa integration and field testing not completed.**
+
+**Live interactive demonstration:** https://badef-development-foundation.github.io/midwife-mesh/  
+**Source code:** [index.html](index.html)  
+**Manual demonstration observations:** [TEST_NOTES.md](TEST_NOTES.md)
 
 **Proposed by:** Banadir Development Foundation (BADEF), Somalia  
-**Proposed technology development partner:** Aspire Graphics Ltd, Kenya  
+**Proposed technology development partner:** Hornlink (Horn Digital Limited), Somalia  
 **Proposed pilot:** Afmadow District, Lower Juba, Jubaland, Somalia  
 **Project website:** https://www.badef.org
 
@@ -38,7 +42,9 @@ Midwife Mesh proposes to connect rural midwives to referral care using solar-pow
 
 ## Current maturity and outstanding validation
 
-The project is at **concept stage**. There is no Midwife Mesh application, radio integration, validated end-to-end alert transmission, field-test result, or production dashboard available in this repository. The team must validate LoRa range, message reliability, encryption, consent, radio regulatory requirements, SMS gateway feasibility, and emergency response procedures. The proposed network cannot replace established clinical referral pathways.
+A publicly accessible browser-based demonstration allows users to create fictional maternal emergency alerts, view illustrative mesh-routing steps, and acknowledge alerts in a simulated facility dashboard. On 11 November 2026, two fictional alerts were manually generated and acknowledged in the browser (two generated, two acknowledged, zero pending). This is **manual software simulation testing only**, not radio, SMS, clinical or field validation.
+
+The demonstration does not implement LoRa/Meshtastic hardware communication, verified message delivery, SMS fallback, clinical decision support or a production dashboard. Radio range, reliability, security, consent, regulatory approvals and emergency response protocols remain to be validated. It must not be used for actual patient care or emergencies.
 
 ## Documentation
 
@@ -52,7 +58,7 @@ The project is at **concept stage**. There is no Midwife Mesh application, radio
 
 ## Open-source approach
 
-The concept note proposes GPL-3.0 licensing for new software and CC BY for training content. **No original Midwife Mesh software has yet been published or licensed.** Before publishing source code, BADEF and Aspire Graphics must agree on ownership, contributor permissions, third-party licence compatibility and the exact licence notices. Meshtastic is a third-party open-source project; this repository is not affiliated with or endorsed by Meshtastic.
+The standalone browser demonstrator is published with an [MIT License](LICENSE). This does not determine the licence of future LoRa/Meshtastic-derived software, which must comply with applicable upstream requirements. The concept note proposes GPL-3.0 for future software and CC BY for training materials, subject to confirmation by BADEF and Hornlink. The project is not affiliated with or endorsed by Meshtastic.
 
 ## Contact
 

@@ -1,23 +1,15 @@
-# Midwife Mesh — preliminary browser demonstration observations
+# Midwife Mesh — preliminary browser simulation test observations
 
-**Date:** 11 November 2026
-**Test type:** Manual browser simulation; no physical radio hardware or patient data.
+**Date:** 11 November 2026  
+**Test type:** Manual browser demonstration, including published GitHub Pages site. No radio hardware or patient data.
 
-## Observed during manual user test
+## Observed results
 
-- The user opened `index.html` locally in Google Chrome on macOS.
-- The screenshot showed a fictional case `DEMO-001`, site `Afmadow — Demo Site A`, and danger sign `Heavy bleeding`.
-- The simulated facility view displayed the case as acknowledged.
-- The demonstration counters showed 1 alert generated, 1 acknowledged, and 0 pending.
+- A fictional emergency alert for heavy bleeding was generated and acknowledged in the browser simulation.
+- A second fictional alert for convulsions was generated and acknowledged in the published browser simulation.
+- The user's screenshot of the published demo showed **2 alerts generated, 2 acknowledged, 0 pending**.
+- These are observed manual UI interactions, **not automated tests, real network delivery, clinical outcomes or field-test results**.
 
-**Interpretation:** This is preliminary evidence that the browser interface's simulated alert and acknowledgement workflow can be exercised. It does **not** establish LoRa/Meshtastic radio communication, real delivery reliability, clinical safety, field usability, or UNICEF funding eligibility.
+## Not tested or implemented
 
-## Tests still needed
-
-- Multiple simultaneous simulated alerts
-- Input validation and accessibility review
-- Independent technical code review
-- Real LoRa hardware integration and radio delivery tests
-- Security/privacy review and Somali-language user testing
-
-**Safety:** Do not enter personal or patient data. Do not use for actual emergency response.
+Physical LoRa/Meshtastic transmissions; hospital gateway hardware; SMS fallback; message security and reliability; radio coverage; clinical workflows; Somali-language usability; real patients. Do not use this demonstration for patient care or emergency response.

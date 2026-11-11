@@ -1,5 +1,5 @@
-# Licensing plan — pending owner approval
+# Licensing and ownership notice
 
-The BADEF concept note proposes GPL-3.0 for project software and CC BY for training materials. No original project code is currently published. **A repository-wide LICENSE file has intentionally not been added**, because BADEF and Aspire Graphics must first confirm intellectual-property ownership, contributor permissions, exact licence version and third-party compatibility.
+The standalone browser-based demonstration (`index.html`) is accompanied by the repository's MIT `LICENSE` file. BADEF and Hornlink should confirm that BADEF has the rights to publish and license the demonstration and any partner contributions.
 
-Before publishing original software, consider GPL-3.0-or-later or another OSI-approved licence with legal/technical review. For original training materials, consider CC BY 4.0 with attribution. Meshtastic and other dependencies retain their own upstream licences.
+The proposed future LoRa/Meshtastic integration is not yet implemented. Future code must be reviewed for upstream licence compatibility, ownership, and contributor permissions before release. The project concept proposes GPL-3.0 for future software and CC BY for training materials; these are plans, not evidence that such components already exist.
